@@ -1,0 +1,24 @@
+img {
+    width: 50px;
+}
+
+#name-vs-computer {
+    font-size: 1rem;
+    width: 9rem;
+}
+
+#player-container {
+    width: 10rem;
+}
+
+#contestants-chose {
+    display: flex;
+}
+#contestants-chose img {
+    width: 50px;
+    height: 40px;
+}
+
+#flexbox-container {
+    display: flex;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StenSaxPåse</title>
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Lets play rock paper scissors!</h1>
+    <h2 id="needed-to-win">First to three points - WIN!</h2>
+    <form id="player-name-form" action="">
+        <input type="text" id="player-name-text" placeholder="Enter name">
+        <button id="player-name-btn">Submit</button>
+    </form>
+    <section id="flexbox-container">
+    <h2 id="name-vs-computer"><p id="p-name" class="p-name">player: 0 points</p> <p id="p-vs">vs</p> <p id="p-computer">computer: 0 points</p></h2>
+    <div id="player-container">
+        <h3>Choose your weapon!</h3>
+        <img src="images/weapon-1.PNG" id="weapon-1" alt="rock">
+        <img src="images/weapon-2.PNG" id="weapon-2" alt="paper">
+        <img src="images/weapon-3.PNG" id="weapon-3" alt="scissors">
+    </div>
+    </section>
+   
+    <div id="contestants-chose">
+        <h3>You chose: </h3>
+        <img src="images/blank.PNG" id="players-choice" alt="you chose">
+        <h3>Computer chose: </h3>
+        <img src="images/blank.PNG" id="computers-choice" alt="computer chose">
+    </div>
+</body>
+</html>
