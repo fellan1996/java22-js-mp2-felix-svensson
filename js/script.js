@@ -53,7 +53,7 @@ function playerWins(){
     pName.style.background = 'green';
     playerScore++;
     
-    playerScore === 3 ? window.location.href = youWonPage : '';
+    playerScore === 3 ? window.location.href = 'html/youWon.html' : '';
     let pNameText = pName.innerText;
     const pNameArray = pNameText.split("");
     pNameArray[pNameArray.length-8] = playerScore;
@@ -63,7 +63,7 @@ function playerWins(){
 function computerWins(){
     pComputer.style.background = 'green';
     computerScore++;
-    computerScore === 3 ? window.location.href = youLostPage : '';
+    computerScore === 3 ? window.location.href = 'html/youLost.html' : '';
     pComputer.innerText = `computer: ${computerScore} points`
 }
 
